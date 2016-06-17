@@ -7,5 +7,13 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
 	
-	
+	holamundo: string;
+	otrotexto: string;
+	otrotextomas: string;
+
+	constructor(){
+		this.holamundo = 'Hola Mundo';
+		this.otrotexto = 'Otro texto';
+		this.otrotextomas = 'Otro texto más.';
+	}
 }
